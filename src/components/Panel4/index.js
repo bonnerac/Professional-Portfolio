@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { ScrollTo } from "react-scroll-to";
 import './style.css'
 
-function Panel4() {
-    return (
+export default class Panel4 extends Component {
+    render() {
+        return (
 
-        <div className="panel4-wrapper">
-            PANEL4
-            <button>
-                GO TO PANEL 5
-            </button>
-        </div>
-    )
+            <div className="panel4-wrapper" >
+                PANEL4
+                < ScrollTo >
+                    {({ scroll }) => (
+                        <button onClick={() => scroll({ x: 1360, y: 800, smooth: true })}>Scroll to Panel 5</button>
+                    )}
+                </ScrollTo >
+
+            </div >
+        )
+    }
 }
-
-export default Panel4;
