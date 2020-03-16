@@ -1,7 +1,7 @@
 .panel3-wrapper{
     height: 100vh;
     width: 100vw;
-    background-color: aqua;
+    color: green;
     font-size: 50px;
     display: inline-block;
 }
