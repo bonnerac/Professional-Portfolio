@@ -6,6 +6,9 @@ function Panel6() {
 
         <div className="panel6-wrapper">
             PANEL6
+            <button>
+                GO TO PANEL 5
+            </button>
         </div>
     )
 }

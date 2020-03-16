@@ -6,6 +6,15 @@ function Panel5() {
 
         <div className="panel5-wrapper">
             PANEL5
+            <button>
+                GO TO PANEL 4
+            </button>
+            <button>
+                GO TO PANEL 6
+            </button>
+            <button>
+                GO TO PANEL 8
+            </button>
         </div>
     )
 }
