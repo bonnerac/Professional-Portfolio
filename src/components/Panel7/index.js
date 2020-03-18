@@ -5,7 +5,7 @@ function Panel7() {
     return (
 
         <div className="panel7-wrapper">
-            PANEL7
+
         </div>
     )
 }

@@ -1,7 +1,19 @@
 .panel8-wrapper{
     height: 100vh;
     width: 100vw;
-    color: lightgreen;
-    font-size: 50px;
     display: inline-block;
+}
+.button-contact{
+    color: blue;
+    background: transparent;
+    font-size: 100px;
+    position: relative;
+    left: 632px;
+    border: none;
+}
+.list-group-flush{
+    font-size: 15px;
+}
+.icon{
+    font-size: 29px;
 }
