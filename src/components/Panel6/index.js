@@ -16,7 +16,7 @@ export default class Panel6 extends Component {
                 <Container>
                     <Row>
                         <Col>
-                            <Image src="https://picsum.photos/500/410" rounded />
+                            <Image className="about-me-image" src="https://i.imgur.com/YxDUFkt.jpg" rounded />
                         </Col>
                         <Col>
                             <Card>
@@ -29,7 +29,7 @@ export default class Panel6 extends Component {
                             When my family moved to Chicago, I became a stay-at-home dad to my energetic daughter, but after two years of reading board books and playing pretend, I wanted to jump-start my next career move.
                             <br />
                                     <br />
-                            I decided to attend a Coding Bootcamp at Northwestern University and began my web development journey.
+                            I decided to attend a Coding Bootcamp at Northwestern University and began my web development journey. During my time at the Bootcamp, I learned HTML5, CSS, Bootstrap, Materialize, CSS Grid, JavaScript, JQuery, Handlebars, MySQL, MongoDB, and React, among other languages.
                             <br />
                                     <br />
                             Having completed the program, I'm excited to bring my creative skills and unique background to your next project.
