@@ -8,3 +8,13 @@
     font-size: 30px;
     margin-right: 20px;
 }
+.portfolio-button{
+    color: red;
+    background: transparent;
+    font-size: 100px;
+    position: relative;
+    left: 1210px;
+    top: -300px;
+    border: none;
+
+}

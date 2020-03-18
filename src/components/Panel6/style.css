@@ -1,7 +1,14 @@
 .panel6-wrapper{
     height: 100vh;
     width: 100vw;
-    color: magenta;
-    font-size: 50px;
     display: inline-block;
+    padding-top: 100px;
+}
+.about-name-button{
+    color: yellow;
+    background: transparent;
+    font-size: 100px;
+    position: relative;
+    top: -200px;
+    border: none;
 }

@@ -13,6 +13,7 @@ import soilimage from '../../images/soil.png'
 import { MdHttp } from "react-icons/md";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaFilePowerpoint } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 
 export default class Panel4 extends Component {
@@ -20,11 +21,6 @@ export default class Panel4 extends Component {
         return (
             <>
                 <div className="panel4-wrapper" >
-                    < ScrollTo >
-                        {({ scroll }) => (
-                            <button onClick={() => scroll({ x: 1360, y: 800, smooth: true })}>Scroll to Panel 5</button>
-                        )}
-                    </ScrollTo >
                     <Container>
                         <Row>
                             <CardDeck>
@@ -38,12 +34,12 @@ export default class Panel4 extends Component {
                                                     An application that takes the plot of your favorite movie, and reads it aloud in
                                                     multiple speeds and accents. Built using Materialize and uses 3 APIs (Voice RSS Text to Speech, The Open Movie Database, Youtube)
 
-      </Card.Text>
+                                                </Card.Text>
                                             </Card.Body>
                                             <Card.Header>
                                                 <Accordion.Toggle as={Button} eventKey="0">
                                                     Click for project links!
-                            </Accordion.Toggle>
+                                                </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
@@ -69,12 +65,12 @@ export default class Panel4 extends Component {
                                                 <Card.Title>SoilTime</Card.Title>
                                                 <Card.Text>
                                                     An application that shows you information about the soil and plant life in a given area. Uses the Distributed Active Archive Center for Biochemical Dynamics database from NASA. Built using CSS Grid and features a custom animation.
-      </Card.Text>
+                                                </Card.Text>
                                             </Card.Body>
                                             <Card.Header>
                                                 <Accordion.Toggle as={Button} eventKey="0">
                                                     Click for project links!
-                            </Accordion.Toggle>
+                                                </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
@@ -100,12 +96,12 @@ export default class Panel4 extends Component {
                                                 <Card.Title>HeroBox</Card.Title>
                                                 <Card.Text>
                                                     An subscription e-commerce site that delivers curated Marvel comics each month. Built with React and CSS grid, featuring a login using Passport and Credit Card payment using Stripe.
-      </Card.Text>
+                                                </Card.Text>
                                             </Card.Body>
                                             <Card.Header>
                                                 <Accordion.Toggle as={Button} eventKey="0">
                                                     Click for project links!
-                            </Accordion.Toggle>
+                                                </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
@@ -126,6 +122,13 @@ export default class Panel4 extends Component {
                             </CardDeck>
                         </Row>
                     </Container>
+                    < ScrollTo >
+                        {({ scroll }) => (
+                            <button className="portfolio-button" onClick={() => scroll({ x: 1360, y: 800, smooth: true })}>
+                                <IoIosArrowForward />
+                            </button>
+                        )}
+                    </ScrollTo >
 
 
                 </div >

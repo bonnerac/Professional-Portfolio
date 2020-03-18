@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { ScrollTo } from "react-scroll-to"
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
 import './style.css'
 
 export default class Panel5 extends Component {
