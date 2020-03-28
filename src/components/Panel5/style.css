@@ -3,13 +3,16 @@
     width: 100vw;
     display: inline-block;
     padding: 40px;
+    position: relative;
+    border: green 1px solid;
+    
 }
 .tvguitar{
     height: 340px;
     width: 480px;
-    position: relative;
-    top: 29vh;
-    left: 20vw;
+    position: absolute;
+    top: 39.3vh;
+    left: 29.7vw;
 }
 .button{
     height: 50px;
@@ -18,11 +21,11 @@
     font-size: 20px;
 }
 .portfolio{
-    position: relative;
+    position: absolute;
     width: 290px;
     height: 45px;
-    top: 15.5vh;
-    left: -6vw;
+    top: 20vh;
+    left: 5.5vw;
     background-image: url("https://i.imgur.com/I5YiO0X.jpg?2");
     background-size: contain;
     background-repeat: no-repeat;
@@ -38,8 +41,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(-360deg);
-    position: relative;
-    top: 16.5vh;
+    position: absolute;
+    top: 21vh;
+    left: 30vw;
     border: 2px blue solid;
 }
 .contact:hover{
@@ -51,9 +55,9 @@
     background-repeat: no-repeat;
     width: 280px;
     height: 43px;
-    position: relative;
-    left: 18vw;
-    top: 7.5vh;
+    position: absolute;
+    left: 69.3vw;
+    top: 13vh;
     border: 2px yellow solid;
 }
 .about-me:hover{
