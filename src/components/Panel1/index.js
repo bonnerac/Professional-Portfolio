@@ -25,7 +25,7 @@ export default class Panel1 extends Component {
                     <p>
                         I'm a Front-End Web Developer from Chicago, IL. <br />
                         I have a diverse set of skills from HTML5 and CSS to React and CSS Grid. <br />
-                        Check out some of my projects, learn more about me, and get it touch!
+                        Check out some of my projects, learn more about me, and get in touch!
   </p>
                     <p>
                         < ScrollTo >
