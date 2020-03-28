@@ -1,6 +1,6 @@
 .panel5-wrapper{
-    height: 100vh;
-    width: 100vw;
+    height: 800px;
+    width: 1360px;
     display: inline-block;
     padding: 40px;
     position: relative;
@@ -8,8 +8,8 @@
     
 }
 .tvguitar{
-    height: 340px;
-    width: 480px;
+    height: 42vh;
+    width: 35vw;
     position: absolute;
     top: 39.3vh;
     left: 29.7vw;
