@@ -24,8 +24,8 @@
     position: absolute;
     width: 290px;
     height: 45px;
-    top: 20vh;
-    left: 5.5vw;
+    top: 160px;
+    left: 80px;
     background-image: url("https://i.imgur.com/I5YiO0X.jpg?2");
     background-size: contain;
     background-repeat: no-repeat;
@@ -42,8 +42,8 @@
     background-repeat: no-repeat;
     transform: rotate(-360deg);
     position: absolute;
-    top: 21vh;
-    left: 30vw;
+    top: 170px;
+    left: 380px;
     border: 2px blue solid;
 }
 .contact:hover{
@@ -56,8 +56,8 @@
     width: 280px;
     height: 43px;
     position: absolute;
-    left: 69.3vw;
-    top: 13vh;
+    left: 950px;
+    top: 120px;
     border: 2px yellow solid;
 }
 .about-me:hover{
