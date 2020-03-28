@@ -8,11 +8,11 @@
     
 }
 .tvguitar{
-    height: 42vh;
-    width: 35vw;
+    height: 340px;
+    width: 485px;
     position: absolute;
-    top: 39.3vh;
-    left: 29.7vw;
+    top: 315px;
+    left: 410px;
 }
 .button{
     height: 50px;
